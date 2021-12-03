@@ -63,10 +63,10 @@ To reproduce the results of the repository, you can follow these steps:
 Contents
 ---------------
 The collected raw data has been stored in the
-`data <https://github.com/techieatul/ECE-143-Project-Group-15/data>`_ folder.
+`data <https://github.com/techieatul/ECE-143-Project-Group-15/tree/main/data>`_ folder.
 
 Data Visualization
 ~~~~~~~~~~~~
 All the visualizations have been shown in the final jupyter notebook. You can further explore
 the data using the utility functions provided in
-`util <https://github.com/techieatul/ECE-143-Project-Group-15/util>`_ folder.
+`util <https://github.com/techieatul/ECE-143-Project-Group-15/tree/main/utils>`_ folder.
