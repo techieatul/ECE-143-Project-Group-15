@@ -1,15 +1,15 @@
 .. -*- mode: rst -*-
 
-.. |PythonVersion| image:: https://img.shields.io/badge/python-3.7%20%7C%203.8%20%7C%203.9-blue
-.. _PythonVersion: https://img.shields.io/badge/python-3.7%20%7C%203.8%20%7C%203.9-blue
+.. |PythonVersion| image:: https://img.shields.io/badge/python-3.8%20%7C%203.9-blue
+.. _PythonVersion: https://img.shields.io/badge/python-3.8%20%7C%203.9-blue
 
 
 
-.. |PythonMinVersion| replace:: 3.7
-.. |NumPyMinVersion| replace:: 1.16.4
-.. |PandasMinVersion| replace:: 0.23.0
-.. |PlotlyMinVersion| replace:: 5.4.0
-.. |MatplotlibMinVersion| replace:: 3.1.0
+.. |PythonMinVersion| replace:: 3.8.8
+.. |NumPyMinVersion| replace:: 1.20.1
+.. |PandasMinVersion| replace:: 1.2.4
+.. |PlotlyMinVersion| replace:: 5.1.0
+
 
 
 World Expenditure Analysis
@@ -33,7 +33,6 @@ Main third-party modules:
 - Python (>= |PythonMinVersion|)
 - NumPy (>= |NumPyMinVersion|)
 - Pandas (>= |PandasMinVersion|)
-- Matplotlib (>= |MatplotlibMinVersion|)
 - Plotly (>= |PlotlyMinVersion|)
 
 --------------
@@ -68,6 +67,6 @@ The collected raw data has been stored in the
 Data Visualization
 ~~~~~~~~~~~~
 All the visualizations have been shown in the `Data Visualization
-<https://github.com/techieatul/ECE-143-Project-Group-15/blob/main/Data%20Visualization.ipynb>`_
-jupyter notebook. You can further explore the data using the utility functions provided in
+<https://nbviewer.org/github/techieatul/ECE-143-Project-Group-15/blob/main/Data%20Visualization.ipynb>`_
+jupyter notebook and is being rendered using `Nbviewer<https://nbviewer.org/>`_. You can further explore the data using the utility functions provided in
 `util <https://github.com/techieatul/ECE-143-Project-Group-15/tree/main/utils>`_ folder.
