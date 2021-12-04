@@ -26,12 +26,13 @@ def preprocess_PPI_Info(file,save_plot=None):
     for i in range(2000,2022):
         new_dict[str(i)]=amount[i]
     data_frame = pd.DataFrame({'Year':new_dict.keys(),'Investment':new_dict.values()})
-    plot_line(data_frame,title='Private Participation in Infrastructure for [2000-2021]',
+    return plot_line(data_frame,title='Private Participation in Infrastructure for [2000-2021]',
               xaxis = 'Year',
               yaxis='Investment',
               titlex='Years',
               titley='Investments in USD',
               path=save_plot)
+    
 
 def china_social_spending(healthcare_file,education_file,gdp_file,save_plot=None):
     '''
@@ -64,7 +65,7 @@ def china_social_spending(healthcare_file,education_file,gdp_file,save_plot=None
         yr = gdp_china.loc[i]['China']
         total_money[i] = (yr*dic_edu[i]+yr*dic_healtcare[i])/1e2
     data_frame=pd.DataFrame({'Year':total_money.keys(),'Investment in USD':total_money.values()})
-    plot_line(data_frame,title='Social Spending [2000-2021]',
+    return plot_line(data_frame,title='Social Spending [2000-2021]',
               xaxis = 'Year',
               yaxis='Investment in USD',
               titlex='Years',
