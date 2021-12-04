@@ -6,7 +6,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 
-def preprocess_PPI_Info(file,save_plot):
+def preprocess_PPI_Info(file,save_plot=None):
     '''
     Preprocess the PPI infomation file of china
     Data in the csv have project name and year of investment
@@ -33,7 +33,7 @@ def preprocess_PPI_Info(file,save_plot):
               titley='Investments in USD',
               path=save_plot)
 
-def china_social_spending(healthcare_file,education_file,gdp_file,save_plot):
+def china_social_spending(healthcare_file,education_file,gdp_file,save_plot=None):
     '''
     Give the gdp and spending on healtcare and education spending in term of persentage of gdp
     this functions return the cleaned data in term of total amount spent for every year
@@ -114,4 +114,4 @@ def plot_line(dataframe,title,xaxis,yaxis,titlex,titley,path):
             'yanchor': 'top'}
 
             )
-    fig.write_image(path)
+    return fig
