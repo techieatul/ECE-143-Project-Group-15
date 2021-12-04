@@ -68,5 +68,5 @@ Data Visualization
 ~~~~~~~~~~~~
 All the visualizations have been shown in the `Data Visualization
 <https://nbviewer.org/github/techieatul/ECE-143-Project-Group-15/blob/main/Data%20Visualization.ipynb>`_
-jupyter notebook and is being rendered using `Nbviewer<https://nbviewer.org/>`_. You can further explore the data using the utility functions provided in
+jupyter notebook and is being rendered using `Nbviewer <https://nbviewer.org/>`_. You can further explore the data using the utility functions provided in
 `util <https://github.com/techieatul/ECE-143-Project-Group-15/tree/main/utils>`_ folder.
